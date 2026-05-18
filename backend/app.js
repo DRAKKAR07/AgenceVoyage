@@ -24,7 +24,7 @@ app.use("/api/voyages", voyageRoute)
 app.use("/api/clients", clientRoute)
 
 app.get("/", (req,res)=>{
-    res.send("API Agence Voyage")
+    res.send("API Agence Voyage test test")
 })
 
 const PORT = process.env.PORT || 3001
